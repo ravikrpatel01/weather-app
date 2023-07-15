@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(124, 152, 253);
+}
+
+.card{
+    width: 100%;
+    height: 70%;
+    max-width: 470px;
+    max-height: 4000px;
+    /* background-color: rgba(95, 113, 195, 0.3); */
+    background: linear-gradient(to top, #3399ff 0%, #ccccff 100%);
+    color: white;
+    margin: 50px auto 0;
+    border-radius: 15px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.example{
+    padding-top: 20px;
+}
+
+.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 7px 0px 0px 7px;
+}
+  
+.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 0px 7px 7px 0px;
+  border-left: none; 
+  cursor: pointer;
+}
+  
+.example button:hover {
+  background: #0b7dda;
+}
+  
+.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .windspeed{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.error p{
+  font-size: 16px;
+  margin-top: 50px;
+  text-align: left;
+  color: red;
+  font-weight: bold;
+
+}
+
+.card h2{
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #460aeb;
+  font-size: 30px;
+  font: 100;
+  font-weight:750;
+  font-family:sans-serif;
+}
+
+.card .weather h2{
+  text-align: center;
+  color: #ffffff;
+  font-size: 39px;
+}
+
